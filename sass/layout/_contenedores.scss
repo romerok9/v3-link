@@ -1,0 +1,85 @@
+/* Contenedor Global de todas las secciones */
+
+
+/* Estilo del Contenedor de la seccion de Contacto */
+
+.contenedor-contacto {
+    @extend %d-flex-row;
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+    gap: 5%;
+    .c-contacto {
+        width: 47%;
+        form {
+            /* Estilo del Formulario en la seccion de contacto */
+            margin: 0 auto;
+            label {
+                display: block;
+                letter-spacing: 0.5px;
+            }
+            input,
+            textarea,
+            select {
+                margin-bottom: 1rem;
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid darkred;
+                border-radius: 10px;
+                text-align: center;
+                text-transform: capitalize;
+                &:focus {
+                    outline: none;
+                    border-top: 2px solid darkred;
+                    @include animacion (scale(1.05));
+                }
+            }
+            textarea {
+                height: 100px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+
+/* Contenedor general para las secciones de la Web con display flex Column */
+
+.contenedor-empresa {
+    @extend %d-flex-col;
+    margin: 1rem;
+    text-align: justify;
+    align-items: center;
+    .c-empresa {
+        margin: 1rem;
+        img {
+            /* Animacion para las imagenes dentro de los contenedores generales */
+            &:hover {
+                @include animacion (scale(1.1));
+            }
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        ol {
+            padding-left: 2rem;
+            li {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+
+/* Media Querie para contenedor de contacto en Mobile */
+
+@media screen and (max-width:768px) {
+    .contenedor-contacto {
+        display: flex;
+        flex-flow: column nowrap;
+        .c-contacto {
+            width: 100%;
+            height: 600px;
+        }
+    }
+}

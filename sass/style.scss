@@ -1,0 +1,12 @@
+// Importamos Utilidades - Variables - Mixins - Extends
+@import 'utilities/mixins';
+@import 'utilities/extends';
+@import 'utilities/variables';
+// Importamos CSS base de la pagina - Estilo de Fuente
+@import 'base/typografia';
+@import 'base/globales';
+// Importamos Configuraciones del Layout - Maquetacion y secciones
+@import 'layout/contenedores';
+@import 'layout/card';
+@import 'layout/header';
+@import 'layout/footer';

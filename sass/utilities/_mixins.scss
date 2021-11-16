@@ -1,0 +1,8 @@
+// Hacemos un mixin para las animaciones de la WEB
+@mixin animacion ($propiedad) {
+    transform: $propiedad;
+    -moz-transform: $propiedad;
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    transition: all 0.8s;
+}

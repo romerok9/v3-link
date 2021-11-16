@@ -1,0 +1,29 @@
+    /* Estilo de las tarjetas del Index - Usa como base Bootstrap@5.1 */
+    
+    .card {
+        max-width: 350px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        img {
+            &:hover {
+                @include animacion (translateY(-0.8rem));
+            }
+        }
+        .card-body {
+            @extend %d-flex-col;
+            margin-top: 1rem;
+            text-align: justify;
+            h4 {
+                text-align: center;
+                border-bottom: black solid 1px;
+                margin: 1rem 0 1rem 0;
+            }
+            p {
+                margin-bottom: 1rem;
+            }
+            a {
+                text-decoration: none;
+                @extend %boton-css;
+            }
+        }
+    }

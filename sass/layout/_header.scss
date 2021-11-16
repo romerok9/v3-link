@@ -1,0 +1,60 @@
+/* Inicio del Header */
+
+.menu {
+    @extend %d-flex-row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $fondo;
+    .logo img {
+        width: 10rem;
+    }
+    nav {
+        display: inline-block;
+        ul {
+            margin-right: 2rem;
+            li {
+                display: inline-block;
+                padding: 0.5rem;
+                &:hover {
+                    @include animacion (translateY(-0.2rem));
+                }
+                a {
+                    text-decoration: none;
+                    color: $nav-fotter-color;
+                    &:hover {
+                        color: $hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Media Queries adecuar la barra de navegacion a dispositivos mobile */
+
+@media screen and (max-width:768px) {
+    .menu {
+        background-color: $fondo-mobile;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        .logo {
+            margin: 1rem 0 1rem 0;
+        }
+        nav {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            border-top: 2px solid $nav-fotter-color;
+            ul {
+                margin: 0;
+            }
+        }
+    }
+}
+
+video {
+    border: $fondo 2px solid;
+    box-shadow: 5px 5px $fondo;
+    width: 100%;
+}

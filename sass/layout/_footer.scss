@@ -1,0 +1,58 @@
+    //Importamos las Variables por ahora solo color
+    /* Inicio del Footer */
+    
+    footer {
+        background: $fondo;
+        color: $nav-fotter-color;
+        border-top: solid black 1rem;
+        .columnas-footer {
+            @extend %d-flex-col;
+            align-items: center;
+            p {
+                justify-content: center;
+                align-items: center;
+            }
+            h3 {
+                margin-bottom: 1rem;
+            }
+            i {
+                font-size: 2rem;
+                color: $nav-fotter-color;
+                padding-top: 0.5rem;
+                margin: 1rem 1rem 1rem 1rem;
+                &:hover {
+                    color: $hover;
+                }
+            }
+            a {
+                text-decoration: none;
+                color: $nav-fotter-color;
+                &:hover {
+                    color: $hover;
+                }
+            }
+        }
+    }
+    /* Media Queries para el footer cuando se reduce el tamaño de la pantalla */
+    
+    @media screen and (max-width:1000px) {
+        footer {
+            background-color: $fondo;
+            .footer-column {
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: space-between;
+                align-items: center;
+                .columnas-footer {
+                    padding: 1rem 0 1rem 0;
+                    border-top: solid $nav-fotter-color 2px;
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        footer {
+            background-color: $fondo-mobile;
+        }
+    }

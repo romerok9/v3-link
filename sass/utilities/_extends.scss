@@ -1,0 +1,33 @@
+// Creamos un Placeholder para Display Flex Row
+
+/* Divs con Display Flex Column */
+
+%d-flex-col {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+// Creamos un Placeholder para Display Flex Column
+
+/* Divs con Display Flex Row */
+
+%d-flex-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+%boton-css {
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    border: 1px solid #000;
+    box-shadow: (2px 2px 2px #193498);
+    &:hover {
+        background-color: yellow;
+        box-shadow: (4px 4px 4px #193498);
+        color: black;
+        transition: all .5s;
+    }
+}
