@@ -53,6 +53,8 @@
     .c-empresa {
         margin: 1rem;
         img {
+            width: 100%;
+            height: auto;
             /* Animacion para las imagenes dentro de los contenedores generales */
             &:hover {
                 @include animacion (scale(1.1));

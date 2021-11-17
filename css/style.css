@@ -107,6 +107,8 @@ footer .columnas-footer, .card .card-body, .contenedor-empresa {
   margin: 1rem;
 }
 .contenedor-empresa .c-empresa img {
+  width: 100%;
+  height: auto;
   /* Animacion para las imagenes dentro de los contenedores generales */
 }
 .contenedor-empresa .c-empresa img:hover {
