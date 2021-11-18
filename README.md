@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Kevs Romero</h1>
+<h1 align="center">Hi 👋, I'm Kevin Romero</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
 - 🔭 I’m currently working on **Link-It**
