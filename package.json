@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romerok9/v3-link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romerok9/v3-link/issues"
+  },
+  "homepage": "https://github.com/romerok9/v3-link#readme",
   "description": ""
 }
