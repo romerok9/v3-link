@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Kevin Romero</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on **Link-It**
+- 🔭 I’m currently working on **Link-It Solutions**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
