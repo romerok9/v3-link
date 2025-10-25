@@ -1,0 +1,96 @@
+MIT License
+
+Copyright (c) 2025 Link IT Solutions
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Sobre la Licencia MIT
+
+La Licencia MIT es una licencia de software libre permisiva que pone muy pocas
+limitaciones en la reutilización y ha sido adoptada por muchos proyectos de
+código abierto, especialmente en el ecosistema JavaScript/TypeScript.
+
+### ¿Qué permite esta licencia?
+
+✅ **Uso Comercial**: Puede usar este software para propósitos comerciales
+✅ **Modificación**: Puede modificar el software
+✅ **Distribución**: Puede distribuir copias del software
+✅ **Uso Privado**: Puede usar y modificar el software en privado
+✅ **Sublicenciar**: Puede conceder una sublicencia del software
+
+### ¿Qué requiere?
+
+📋 **Aviso de Copyright**: Debe incluir el aviso de copyright en todas las copias
+📋 **Texto de Licencia**: Debe incluir el texto completo de esta licencia
+
+### ¿Qué NO garantiza?
+
+❌ **Sin Garantía**: El software se proporciona "tal cual", sin garantía de ningún tipo
+❌ **Sin Responsabilidad**: Los autores no son responsables por daños derivados del uso
+
+---
+
+## Por Qué Elegimos MIT
+
+Link IT Solutions eligió la Licencia MIT por las siguientes razones:
+
+1. **Simplicidad**: Es corta, clara y fácil de entender
+2. **Flexibilidad**: Permite uso comercial y modificación sin restricciones
+3. **Compatibilidad**: Compatible con la mayoría de otras licencias de código abierto
+4. **Adopción**: Ampliamente reconocida y aceptada en la industria tecnológica
+5. **Empresarial**: Ideal para proyectos empresariales que buscan transparencia
+
+---
+
+## Atribución
+
+Si utiliza este proyecto, agradeceríamos (aunque no es obligatorio) que:
+
+- Mencione "Basado en código de Link IT Solutions" en su documentación
+- Incluya un enlace a nuestro sitio web: https://linkit.ar
+- Considere contribuir mejoras de vuelta al proyecto original
+
+---
+
+## Contacto
+
+**Link IT Solutions**
+
+- Website: https://linkit.ar
+- Email: romerok9@gmail.com
+- GitHub: https://github.com/romerok9
+
+---
+
+## Licencias de Terceros
+
+Este proyecto utiliza las siguientes bibliotecas de código abierto:
+
+- **Next.js**: MIT License
+- **React**: MIT License
+- **TypeScript**: Apache License 2.0
+- **Tailwind CSS**: MIT License
+- **React Icons**: MIT License
+
+Consulte el archivo `package.json` para la lista completa de dependencias.
+
+Cada dependencia conserva su licencia original. Este proyecto no reclama ningún
+derecho sobre las bibliotecas de terceros utilizadas.
