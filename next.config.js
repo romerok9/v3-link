@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/v3-link' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/v3-link/' : '',
   images: {
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    unoptimized: true, // GitHub Pages no soporta optimización de imágenes
   },
+  reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
   swcMinify: true,
